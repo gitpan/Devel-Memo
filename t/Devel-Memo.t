@@ -1,8 +1,7 @@
-# $Id: Devel-Memo.t 1.4 Fri, 05 Sep 1997 16:08:15 -0400 jesse $ -*- Perl -*-
+# $Id: Devel-Memo.t 1.5 Tue, 13 Jan 1998 12:27:47 -0500 jesse $ -*- Perl -*-
 
-use mods q{
-  Devel::Memo, Test::Helper;
-};
+use Devel::Memo;
+use Test::Helper;
 
 test {
   comm 'Creating new Devel::Memo object and binding to &func1';
@@ -18,5 +17,5 @@ test {
   ok func1(16, {foo => 1}, {bar => 3}, 5)==4;
   ok func1(16, {foo => 1}, {bar => 3}, 5)==4;
   ok func1(16, [1, 2])==1;
-  ok not runs {func1(5)};
+  ok !runs {func1(5)};
 };

@@ -101,6 +101,6 @@ L<FreezeThaw(3P)>.
 =head1 REVISION
 
 X<$Format: "F<$Source$> last modified $Date$, release $DevelMemoRelease$. $Copyright$"$>
-F<Devel-Memo/lib/Devel/Memo.pm> last modified Wed, 10 Dec 1997 17:58:09 -0500, release 0.003. Copyright (c) 1997 Strategic Interactive Group. All rights reserved. This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+F<Devel-Memo/lib/Devel/Memo.pm> last modified Wed, 10 Dec 1997 17:58:09 -0500, release 0.004. Copyright (c) 1997 Strategic Interactive Group. All rights reserved. This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut

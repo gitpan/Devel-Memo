@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
 # $Format: " VERSION => '$DevelMemoRelease$',"$
- VERSION => '0.003',
+ VERSION => '0.004',
               NAME => 'Devel::Memo',
 	      PREREQ_PM => {
 			    FreezeThaw => 0,
